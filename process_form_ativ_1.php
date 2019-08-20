@@ -14,7 +14,7 @@ $Estado = $_POST ['Estado'];
 $Funcao = $_POST ['Funcao'];
 $Nome_Equipe = $_POST ['Nome_Equipe'];
 //Cria a Query SQL
-$query = "INSERT INTO Membros (Nome, Email, Escola, Funcao, Nome_Equipe) VALUES ('$Nome', '$Email', '$Escola', '$Funcao', '$Nome_Equipe')";
+$query = "INSERT INTO Membros (Nome, Email, Escola, Estado, Funcao, Nome_Equipe) VALUES ('$Nome', '$Email', '$Escola', '$Estado', '$Funcao', '$Nome_Equipe')";
 $result = mysqli_query( $link, $query ) or die('Error querying database.');
 //Fechar a conexão com o BD
 mysqli_close($link);
