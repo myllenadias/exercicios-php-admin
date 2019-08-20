@@ -21,6 +21,7 @@
 <td><p><strong>Escola:</strong></p></td>
 <td><input type="text" name="Escola" size="40"/></td>
 </tr>
+<tr>
 <td><p><strong>Estado:</strong></p></td>
 <td><input type="text" name="Estado" size="40"/></td>
 </tr>
